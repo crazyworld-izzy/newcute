@@ -77,7 +77,7 @@ def aq_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏", url="https://t.me/vip_creators",
+                text="🍷 𝐌𖽙𖽷𖽞 😻", url="https://t.me/king_0f_izzy",
                 
             ),
         ],
@@ -98,16 +98,16 @@ def queuemarkup(_, vidid, chat_id):
 
         [
             InlineKeyboardButton(
-                text="ᴘᴀᴜsᴇ",
+                text="🍷 𝐏𖽖𖽪𖾗𖽞😻",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
 
             InlineKeyboardButton(
-                text="sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"
+                text="🍷 𝐒𖾓𖽙𖽳 😻", callback_data=f"ADMIN Stop|{chat_id}"
             ),
 
             InlineKeyboardButton(
-                text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"
+                text="🍷 𝐒ᴋ𖽹𖽳 😻", callback_data=f"ADMIN Skip|{chat_id}"
             ),
         ],
         [
@@ -116,7 +116,7 @@ def queuemarkup(_, vidid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏", url="https://t.me/vip_creators",
+                text="🍷 𝐌𖽙𖽷𖽞 😻", url="https://t.me/king_0f_izzy",
                 
             ),
         ],
