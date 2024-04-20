@@ -20,11 +20,11 @@ SPAM_THRESHOLD = 2
 SPAM_WINDOW_SECONDS = 5
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/2db9e6beae255e08ff204.jpg",
+    "https://telegra.ph/file/2db9e6beae255e08ff204.jpg",
+    "https://telegra.ph/file/2db9e6beae255e08ff204.jpg",
+    "https://telegra.ph/file/2db9e6beae255e08ff204.jpg",
+    "https://telegra.ph/file/2db9e6beae255e08ff204.jpg",
 ]
 
 # --------------------------------------------------------------------------------- #
@@ -83,19 +83,33 @@ font_path = "VIPMUSIC/assets/hiroko.ttf"
 
 
 INFO_TEXT = """**
-❅─────✧❅✦❅✧─────❅
-            ✦ ᴜsᴇʀ ɪɴғᴏ ✦
+☆ . * ● ¸ . ✦ .✩○☆° :. ★ * • ○ ° ★
 
-➻ ᴜsᴇʀ ɪᴅ ‣ **`{}`
-**➻ ғɪʀsᴛ ɴᴀᴍᴇ ‣ **{}
-**➻ ʟᴀsᴛ ɴᴀᴍᴇ ‣ **{}
-**➻ ᴜsᴇʀɴᴀᴍᴇ ‣ **`{}`
-**➻ ᴍᴇɴᴛɪᴏɴ ‣ **{}
-**➻ ʟᴀsᴛ sᴇᴇɴ ‣ **{}
-**➻ ᴅᴄ ɪᴅ ‣ **{}
-**➻ ʙɪᴏ ‣ **`{}`
+      🦋‌𝆺𝅥𓆩〭〬𝐂𖽪֟፝‌𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ‌𝆺𝅥😻⤍🖤
 
-**❅─────✧❅✦❅✧─────❅**
+ ⊰●⊱┈─★ 🍷 𝐔𖾗𖽞𖽷 𝐈𖽡ꜰ𖽙 😻  ★─┈⊰●⊱
+
+➽───────────────────❥
+
+🍷 𝐍𖽖𖽧𖽞 😻  {}
+
+🍷 𝐅𖽹𖽷𖾗𖾓 𝐍𖽖𖽧𖽞 😻  {}
+
+🍷 𝐋𖽖𖾗𖾓 𝐍𖽖𖽧𖽞 😻  {}
+
+🍷 𝐔𖾗𖽞𖽷𖽡𖽖𖽧𖽞 😻  {}
+
+🍷 𝐌𖽞𖽡𖾓𖽹𖽙𖽡 😻  {}
+
+🍷 𝐋𖽖𖾗𖾓 𝐒𖽞𖽞𖽡 😻  {}
+
+🍷 𝐃𖽝 𝐈𖽴 😻  {}
+
+🍷 𝐁𖽹𖽙 😻  {}
+
+➽───────────────────❥
+
+☆ . * ● ¸ . ✦ .✩○☆° :. ★ * • ○ ° ★**
 """
 
 # --------------------------------------------------------------------------------- #
