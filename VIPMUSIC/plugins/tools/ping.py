@@ -66,30 +66,30 @@ async def ping_com(client, message: Message, _):
         user_command_count[user_id] = 1
         user_last_message_time[user_id] = current_time
 
-    PING_IMG_URL = "https://telegra.ph/file/37b57c6aaaa793bba055a.jpg"
-    captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
+    PING_IMG_URL = "https://telegra.ph/file/7b045d0ca4a5450552be4.jpg"
+    captionss = "**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ...**")
+    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
     await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**")
+    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
     await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ..**")
+    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ...**")
+    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
     await asyncio.sleep(2)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ....**")
+    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
     await asyncio.sleep(2)
-    await response.edit_caption("**📡sʏsᴛᴇᴍ ᴅᴀᴛᴀ ᴀɴᴀʟʏsᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ !**")
+    await response.edit_caption("**𝐼𝑟𝑢 𝑅𝑎𝑠𝑎 𝐴𝑛𝑢𝑝𝑎𝑟𝑒𝑎𝑛 🤌🏻🫀**")
     await asyncio.sleep(3)
-    await response.edit_caption("**📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
+    await response.edit_caption("**𝐽𝑜𝑙𝑖 𝑀𝑢𝑑𝑢𝑛𝑗𝑢𝑡ℎ𝑢 🥹✨")
     start = datetime.now()
     pytgping = await VIP.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
     carbon = await make_carbon(text)
-    captions = "**ㅤ  🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ✨\nㅤ  🎸 ᴅɪɴɢ...ᴅᴏɴɢ...ᴅɪɴɢ💞**"
+    captions = "** 𝐼𝑡ℎ𝑜𝑜𝑜 𝑉𝑎𝑛𝑡ℎ𝑢𝑡𝑒𝑎𝑛.....!\n 𝐼𝑡ℎ𝑜𝑜𝑜 𝑉𝑎𝑛𝑡ℎ𝑢𝑡𝑒𝑎𝑛.....!**"
     await message.reply_photo((carbon), caption=captions,
     reply_markup=InlineKeyboardMarkup(
             [
@@ -102,15 +102,15 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/TG_FRIENDSS",
+                text="🍷 𝐆𖽷𖽙𖽪𖽳 😻", url=f"https://t.me/Team_Hypers_Networks",
             ),
             InlineKeyboardButton(
-                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/VIP_CREATORS",
+                text="🍷 𝐎𖾟𖽡𖽞𖾖 😻", url=f"https://t.me/king_0f_izzy",
             )
         ],
         [
             InlineKeyboardButton(
-                text="❅ ʜᴇʟᴘ ❅", url=f"https://t.me/{app.username}?start=help"
+                text="🍷 𝐇𖽞𖾘𖽳 😻", url=f"https://t.me/{app.username}?start=help"
             )
         ],
     ]
@@ -118,7 +118,7 @@ async def ping_com(client, message: Message, _):
         )
     await response.delete()
 
-    close_button = InlineKeyboardButton("๏ ᴄʟᴏsᴇ ๏", callback_data="close_data")
+    close_button = InlineKeyboardButton("🍷 𝐂𖾘𖽙𖾗𖽞 😻", callback_data="close_data")
     inline_keyboard = InlineKeyboardMarkup([[close_button]])
 
 @app.on_callback_query(filters.regex("^close_data"))
