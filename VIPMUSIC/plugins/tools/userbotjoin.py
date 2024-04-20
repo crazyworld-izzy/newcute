@@ -26,7 +26,7 @@ async def join_group(client, message):
     chat_id = message.chat.id
     userbot = await get_assistant(message.chat.id)
     userbot_id = userbot.id
-    done = await message.reply("**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ɪɴᴠɪᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ**...")
+    done = await message.reply("**🤧🦋 𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑢𝑔𝑎 𝐷𝑎  𝐴𝑠𝑠𝑖𝑠𝑡𝑎𝑛𝑡 🐣✨**...")
     await asyncio.sleep(1)
     # Get chat member object
     chat_member = await app.get_chat_member(chat_id, app.id)
@@ -35,16 +35,16 @@ async def join_group(client, message):
     if message.chat.username and not chat_member.status == ChatMemberStatus.ADMINISTRATOR:
         try:
             await userbot.join_chat(message.chat.username)
-            await done.edit_text("**✅ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ.**")
+            await done.edit_text("**🫳🏻🐣 𝐴𝑠𝑠𝑖𝑠𝑡𝑎𝑛𝑡 𝑉𝑎𝑛𝑡ℎ𝑒𝑎𝑛 𝑚𝑎𝑚𝑒𝑎 🫂💫**")
         except Exception as e:
-            await done.edit_text("**ɪ ɴᴇᴇᴅ ᴀᴅᴍɪɴ ᴘᴏᴡᴇʀ ᴛᴏ ᴜɴʙᴀɴ ɪɴᴠɪᴛᴇ ᴍʏ ᴀssɪsᴛᴀɴᴛ!**")
+            await done.edit_text("**𝐴𝑑𝑚𝑖𝑛 𝑃𝑜𝑑𝑢 𝐷𝑎 𝑚𝑎𝑛𝑔𝑎 🙄✨**")
             
 
     # Condition 2: Group username is present, bot is admin, and Userbot is not banned
     if message.chat.username and chat_member.status == ChatMemberStatus.ADMINISTRATOR:
         try:
             await userbot.join_chat(message.chat.username)
-            await done.edit_text("**✅ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ.**")
+            await done.edit_text("**🫳🏻🐣 𝐴𝑠𝑠𝑖𝑠𝑡𝑎𝑛𝑡 𝑉𝑎𝑛𝑡ℎ𝑒𝑎𝑛 𝑚𝑎𝑚𝑒𝑎 🫂💫**")
         except Exception as e:
             await done.edit_text(str(e))
 
@@ -56,16 +56,16 @@ async def join_group(client, message):
         if userbot_member.status in [ChatMemberStatus.BANNED, ChatMemberStatus.RESTRICTED]:
             try:
                 await app.unban_chat_member(chat_id, userbot.id)
-                await done.edit_text("**ᴀssɪsᴛᴀɴᴛ ɪs ᴜɴʙᴀɴɴɪɴɢ...**")
+                await done.edit_text("**✨🐣 𝑂𝑟𝑢 𝑣𝑎𝑙𝑖𝑦𝑎 𝑉𝑎𝑙𝑖𝑦𝑎 𝑈𝑛𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑡ℎ𝑎𝑛𝑔𝑎 🫂💫🫀**")
                 await userbot.join_chat(message.chat.username)
-                await done.edit_text("**ᴀssɪsᴛᴀɴᴛ ᴡᴀs ʙᴀɴɴᴇᴅ, ʙᴜᴛ ɴᴏᴡ ᴜɴʙᴀɴɴᴇᴅ, ᴀɴᴅ ᴊᴏɪɴᴇᴅ ᴄʜᴀᴛ ✅**")
+                await done.edit_text("**𝑈𝑛𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑦𝑎𝑐ℎ𝑢 𝐷𝑒𝑖 𝐴𝑑𝑚𝑖𝑛𝑢𝑢 𝑁𝑎𝑙𝑙𝑎 𝑖𝑟𝑢𝑝𝑎 𝑝𝑜𝑑𝑎 🥹🤌🏻**")
             except Exception as e:
-                await done.edit_text("**ғᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ, ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ʙᴀɴ ᴘᴏᴡᴇʀ ᴀɴᴅ ɪɴᴠɪᴛᴇ ᴜsᴇʀ ᴘᴏᴡᴇʀ ᴏʀ ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ ᴍᴀɴᴜᴀʟʟʏ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ ʙʏ /userbotjoin**")
+                await done.edit_text("**𝐵𝑎𝑛 𝑃𝑒𝑟𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐾𝑢𝑑𝑢𝑛𝑔𝑎 𝑑𝑎 𝐴𝑑𝑚𝑖𝑛𝑢𝑢𝑢 🤌🏻✨ 𝑒𝑛 𝑝𝑎𝑛𝑔𝑎𝑙𝑖𝑦𝑎 𝑁𝑎𝑛𝑒𝑎 𝑈𝑛𝑎𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑘𝑎𝑟𝑒𝑎𝑛 🥹🫀/userbotjoin**")
         return
     
     # Condition 4: Group username is not present/group is private, bot is not admin
     if not message.chat.username and not chat_member.status == ChatMemberStatus.ADMINISTRATOR:
-        await done.edit_text("**ɪ ɴᴇᴇᴅ ᴀᴅᴍɪɴ ᴘᴏᴡᴇʀ ᴛᴏ ɪɴᴠɪᴛᴇ ᴍʏ ᴀssɪsᴛᴀɴᴛ.**")
+        await done.edit_text("**𝐴𝑑𝑚𝑖𝑛 𝑃𝑜𝑑𝑢 𝐷𝑎 𝑚𝑎𝑛𝑔𝑎 🙄✨.**")
         
 
 
@@ -75,17 +75,17 @@ async def join_group(client, message):
             try:
                 userbot_member = await app.get_chat_member(chat_id, userbot.id)
                 if userbot_member.status not in [ChatMemberStatus.BANNED, ChatMemberStatus.RESTRICTED]:
-                    await done.edit_text("**✅ ᴀssɪsᴛᴀɴᴛ ᴀʟʀᴇᴀᴅʏ ᴊᴏɪɴᴇᴅ.**")
+                    await done.edit_text("*🫳🏻🐣 𝐴𝑠𝑠𝑖𝑠𝑡𝑎𝑛𝑡 𝑉𝑎𝑛𝑡ℎ𝑒𝑎𝑛 𝑚𝑎𝑚𝑒𝑎 🫂💫.**")
                     return
             except Exception as e:
-                await done.edit_text("**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ɪɴᴠɪᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ**.")
-                await done.edit_text("**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ɪɴᴠɪᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ**...")
+                await done.edit_text("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑢 𝑑𝑎 𝑉𝑎𝑟𝑢𝑣𝑒𝑎𝑛 🚶🏻‍♂🫴🏻💙**.")
+                await done.edit_text("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑢 𝑑𝑎 𝑉𝑎𝑟𝑢𝑣𝑒𝑎𝑛 🚶🏻‍♂🫴🏻💙**...")
                 invite_link = await app.create_chat_invite_link(chat_id, expire_date=None)
                 await asyncio.sleep(2)
                 await userbot.join_chat(invite_link.invite_link)
-                await done.edit_text("**✅ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.**")
+                await done.edit_text("**🫳🏻🐣 𝐴𝑠𝑠𝑖𝑠𝑡𝑎𝑛𝑡 𝑉𝑎𝑛𝑡ℎ𝑒𝑎𝑛 𝑚𝑎𝑚𝑒𝑎 🫂💫**")
         except Exception as e:
-            await done.edit_text(f"**➻ ᴀᴄᴛᴜᴀʟʟʏ ɪ ғᴏᴜɴᴅ ᴛʜᴀᴛ ᴍʏ ᴀssɪsᴛᴀɴᴛ ʜᴀs ɴᴏᴛ ᴊᴏɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴀɴᴅ ɪ ᴀᴍ ɴᴏᴛ ᴀʙʟᴇ ᴛᴏ ɪɴᴠɪᴛᴇ ᴍʏ ᴀssɪsᴛᴀɴᴛ ʙᴇᴄᴀᴜsᴇ [ ɪ ᴅᴏɴᴛ ʜᴀᴠᴇ  ɪɴᴠɪᴛᴇ ᴜsᴇʀ ᴀᴅᴍɪɴ ᴘᴏᴡᴇʀ ] sᴏ ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴍᴇ ɪɴᴠɪᴛᴇ ᴜsᴇʀs ᴀᴅᴍɪɴ ᴘᴏᴡᴇʀ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ ʙʏ- /userbotjoin.**\n\n**➥ ɪᴅ »** @{userbot.username}")
+            await done.edit_text(f"**𝐴𝑑𝑚𝑖𝑛 𝑃𝑜𝑑𝑢 𝐷𝑎 𝑚𝑎𝑛𝑔𝑎 🙄✨ /userbotjoin.**\n\n**➥ ɪᴅ »** @{userbot.username}")
 
     
     
@@ -95,13 +95,13 @@ async def join_group(client, message):
         if userbot_member.status in [ChatMemberStatus.BANNED, ChatMemberStatus.RESTRICTED]:
             try:
                 await app.unban_chat_member(chat_id, userbot.id)
-                await done.edit_text("**ᴀssɪsᴛᴀɴᴛ ɪs ᴜɴʙᴀɴɴᴇᴅ**\n**ᴛʏᴘᴇ ᴀɢᴀɪɴ:- /userbotjoin.**")
+                await done.edit_text("**𝑈𝑛𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑦𝑎𝑐ℎ𝑢 𝐷𝑒𝑖 𝐴𝑑𝑚𝑖𝑛𝑢𝑢 𝑁𝑎𝑙𝑙𝑎 𝑖𝑟𝑢𝑝𝑎 𝑝𝑜𝑑𝑎 🥹🤌🏻**\n**ᴛʏᴘᴇ ᴀɢᴀɪɴ:- /userbotjoin.**")
                 invite_link = await app.create_chat_invite_link(chat_id, expire_date=None)
                 await asyncio.sleep(2)
                 await userbot.join_chat(invite_link.invite_link)
-                await done.edit_text("**ᴀssɪsᴛᴀɴᴛ ᴡᴀs ʙᴀɴɴᴇᴅ, ɴᴏᴡ ᴜɴʙᴀɴɴᴇᴅ, ᴀɴᴅ ᴊᴏɪɴᴇᴅ ᴄʜᴀᴛ✅**")
+                await done.edit_text("**🐣 𝑂𝑟𝑢𝑣𝑎𝑙𝑖𝑦𝑎 𝑉𝑎𝑙𝑖𝑦𝑎 𝑈𝑛𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑡ℎ𝑎𝑛𝑔𝑎 🫂💫🫀**")
             except Exception as e:
-                await done.edit_text(f"**➻ ᴀᴄᴛᴜᴀʟʟʏ ɪ ғᴏᴜɴᴅ ᴛʜᴀᴛ ᴍʏ ᴀssɪsᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴀɴᴅ ɪ ᴀᴍ ɴᴏᴛ ᴀʙʟᴇ ᴛᴏ ᴜɴʙᴀɴ ᴍʏ ᴀssɪsᴛᴀɴᴛ ʙᴇᴄᴀᴜsᴇ [ ɪ ᴅᴏɴᴛ ʜᴀᴠᴇ  ʙᴀɴ ᴘᴏᴡᴇʀ ] sᴏ ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴍᴇ ʙᴀɴ ᴘᴏᴡᴇʀ ᴏʀ ᴜɴʙᴀɴ ᴍʏ ᴀssɪsᴛᴀɴᴛ ᴍᴀɴᴜᴀʟʟʏ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ ʙʏ- /userbotjoin.**\n\n**➥ ɪᴅ »** @{userbot.username}")
+                await done.edit_text(f"**𝐵𝑎𝑛 𝑃𝑒𝑟𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐾𝑢𝑑𝑢𝑛𝑔𝑎 𝑑𝑎 𝐴𝑑𝑚𝑖𝑛𝑢𝑢𝑢 🤌🏻✨ 𝑒𝑛 𝑝𝑎𝑛𝑔𝑎𝑙𝑖𝑦𝑎 𝑁𝑎𝑛𝑒𝑎 𝑈𝑛𝑎𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑘𝑎𝑟𝑒𝑎𝑛 🥹🫀 /userbotjoin.**\n\n**🍷⚡🍂 ɪᴅ »** @{userbot.username}")
         return
     
     
@@ -114,7 +114,7 @@ async def leave_one(client, message):
     try:
         userbot = await get_assistant(message.chat.id)
         await userbot.leave_chat(message.chat.id)
-        await app.send_message(message.chat.id, "**✅ ᴜsᴇʀʙᴏᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴇғᴛ ᴛʜɪs Chat.**")
+        await app.send_message(message.chat.id, "**🤧🤧 𝑃𝑜𝑖𝑡ℎ𝑢 𝑉𝑎 𝑈𝑠𝑒𝑟𝑏𝑜𝑡 𝑃𝑎𝑛𝑔𝑎𝑙𝑖🥹🫀**")
     except Exception as e:
         print(e)
 
