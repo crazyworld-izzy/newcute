@@ -31,11 +31,11 @@ import random
 import asyncio
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/ee9a616090d78437e823f.jpg",
+    "https://telegra.ph/file/ee9a616090d78437e823f.jpg",
+    "https://telegra.ph/file/ee9a616090d78437e823f.jpg",
+    "https://telegra.ph/file/ee9a616090d78437e823f.jpg",
+    "https://telegra.ph/file/ee9a616090d78437e823f.jpg",
 ]
 
 bg_path = "VIPMUSIC/assets/userinfo.png"
@@ -98,8 +98,8 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
         else:
             welcome_photo = random.choice(random_photo)
 
-        caption = f"**#New_Member_Left**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
-        button_text = "๏ ᴠɪᴇᴡ ᴜsᴇʀ ๏"
+        caption = f"**#New_Member_Left**\n\n**🍷** {user.mention} **𝑉𝑒𝑙𝑖𝑦𝑎 𝑝𝑜𝑑𝑎 🤌🏻 𝐵𝑢𝑡𝑡𝑒𝑟 𝑀𝑎𝑔𝑎𝑛𝑒𝑎**\n**𝑆𝑖𝑘𝑎𝑟𝑎𝑚 𝑉𝑎 𝐷𝑎 𝑀𝑎𝑝𝑙a**"
+        button_text = "𝑃𝑎𝑛𝑔𝑎𝑙𝑖 🫂🫀"
         deep_link = f"tg://openmessage?user_id={user.id}"
 
         message = await client.send_photo(
