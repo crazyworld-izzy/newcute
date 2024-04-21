@@ -40,9 +40,9 @@ SPAM_WINDOW_SECONDS = 5
 
 
 YUMI_PICS = [
-"https://telegra.ph/file/3134ed3b57eb051b8c363.jpg",
-"https://telegra.ph/file/5a2cbb9deb62ba4b122e4.jpg",
-"https://telegra.ph/file/cb09d52a9555883eb0f61.jpg"
+"https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+"https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+"https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
 
 ]
 
@@ -109,8 +109,8 @@ async def start_pm(client, message: Message, _):
             key = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text= "📥 ᴠɪᴅᴇᴏ", callback_data=f"downloadvideo {query}"),
-                        InlineKeyboardButton(text= "📥 ᴀᴜᴅɪᴏ", callback_data=f"downloadaudio {query}"),
+                        InlineKeyboardButton(text= "🍷 𝐕𖽹𖽴𖽞𖽙 😻", callback_data=f"downloadvideo {query}"),
+                        InlineKeyboardButton(text= "🍷 𝐀𖽪𖽴𖽹𖽙 😻", callback_data=f"downloadaudio {query}"),
                 
                     ],
                     [
