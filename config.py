@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "28027658"))
+API_HASH = getenv("API_HASH", "044c3e4f8556a684c66b24db62f0fec8")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7052307127:AAGwnQg_09x2R131bypZgB8Yiz1dgZZ6m5g")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
@@ -22,7 +22,7 @@ LOGGER_ID = int(getenv("LOGGER_ID"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001443337704"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("OWNER_ID","6550354041"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -51,10 +51,10 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "2500"))
 AUTO_LEAVING_ASSISTANT = False
 
 #Auto Gcast/Broadcast Handler (True = broadcast on , False = broadcast off During Hosting, Dont Do anything here.)
-AUTO_GCAST = os.getenv("AUTO_GCAST")
+AUTO_GCAST = os.getenv("AUTO_GCAST","False")
 
 #Auto Broadcast Message That You Want Use In Auto Broadcast In All Groups.
-AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
+AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", None)
 
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "19609edb1b9f4ed7be0c8c1342039362")
@@ -83,7 +83,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQE9p8oAUDvrW9Dnl1W8SP8zOfVR4WKWH2Lc3AGnDqH896n1vXZDqs56EZtxqba2qzIpz5lyrqkIpj8IsnK8HYf8Ys8O4oE5YDTnzjA43n2kF2halZ7CqjaOgwTZ-FKh8S0hqsUR5xfJShJNvZHEEqM_x1mDY1cMy_UEW4JRLT474rCzMGPxtpfKMbIPWAEWD-yuMD_KOl1_V5CcrUMGrCgAYT5ToGzcYV_-qUbTFZ89bgRwWXzG6P0LpmOaZy1oAoYR7a2xE4c8RqBmeygvEOuvRrDT1g9MQmLCCOWXwMbhXVlUk4LX7glp86G4e6RlVaqWi9tDbHa83Wy40EZn5qxYG_wsRgAAAAGGbnh5AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
