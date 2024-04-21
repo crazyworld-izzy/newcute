@@ -13,11 +13,11 @@ from pyrogram.enums import ParseMode
 from typing import Union, Optional
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
 ]
 
 # --------------------------------------------------------------------------------- #
@@ -78,14 +78,14 @@ font_path = "VIPMUSIC/assets/hiroko.ttf"
 chat_id_env = environ.get("CHAT_ID")
 CHAT_ID = [int(app) for app in chat_id_env.split(",")] if chat_id_env else []
 
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "**❅─────✧❅✦❅✧─────❅**\n**🥀ʜᴇʏ {mention}**\n\n**🏓ᴡᴇʟᴄᴏᴍᴇ ɪɴ ɴᴇᴡ ɢʀᴏᴜᴘ✨**\n\n**➻** {title}\n\n**💞ɴᴏᴡ ᴍᴀᴋᴇ ɴᴇᴡ ғʀɪᴇɴᴅs ᴀɴᴅ sᴛᴀʏ ᴀʟᴡᴀʏs ᴏɴʟɪɴᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ🥳**\n**❅─────✧❅✦❅✧─────❅**")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "**☆.*●¸.✦.✩○☆°:.★*•○°★**\n**🍷 {mention}**\n\n**𝑈𝑛𝑎𝑘𝑢 𝑊𝑒𝑙𝑐𝑜𝑚𝑒 𝑂𝑟𝑢 𝐾𝑒𝑑𝑢 😒**\n\n**➻** {title}\n\n**𝐼𝑣𝑎𝑛𝑢𝑘𝑢𝑚 𝑂𝑟𝑢 𝑃𝑎𝑦𝑎𝑠𝑎𝑡ℎ𝑎 𝑃𝑜𝑡𝑟𝑎 𝑉𝑒𝑛𝑑𝑖𝑦𝑎𝑑ℎ𝑎𝑛 🙊😏🫀**\n**☆.*●¸.✦.✩○☆°:.★*•○°★**")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # List of random photo links
 random_photo_links = [
-    "https://telegra.ph/file/ca950c0b8316b968957fa.jpg",
-    "https://telegra.ph/file/ca950c0b8316b968957fa.jpg",
-    "https://telegra.ph/file/ca950c0b8316b968957fa.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
     # Add more links as needed
 ]
 
@@ -120,7 +120,7 @@ async def autoapprove(client: app, message: ChatJoinRequest):
                     [
                         [
                             InlineKeyboardButton(
-                                "🌱ᴡᴇʟᴄᴏᴍᴇ ᴅᴇᴀʀ🌱", url=f"https://t.me/{app.username}?startgroup=true"
+                                "𝐺𝑟𝑜𝑢𝑝 𝐾𝑢 𝑉𝑎𝑛𝑡ℎ𝑢 𝑇ℎ𝑜𝑙𝑎𝑎𝑎", url=f"https://t.me/{app.username}?startgroup=true"
                             )
                         ]
                     ]
