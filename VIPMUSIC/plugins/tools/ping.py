@@ -66,7 +66,7 @@ async def ping_com(client, message: Message, _):
         user_command_count[user_id] = 1
         user_last_message_time[user_id] = current_time
 
-    PING_IMG_URL = "https://telegra.ph/file/7b045d0ca4a5450552be4.jpg"
+    PING_IMG_URL = "https://telegra.ph/file/37b57c6aaaa793bba055a.jpg"
     captionss = "**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
