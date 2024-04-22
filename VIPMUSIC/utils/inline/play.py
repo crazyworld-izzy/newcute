@@ -133,7 +133,8 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴀᴅᴠᴀɴᴄᴇ ๏",
+                text="🍷 𝐀𖽴ᵥ𖽖𖽝𖽞  😻
+                                                                                           ",
                 callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
             ),
         ],
