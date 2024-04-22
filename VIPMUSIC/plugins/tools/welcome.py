@@ -217,7 +217,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
                 member.chat.id,
                 photo=welcomeimg,
                 caption=f"""
-**☆.*●¸.✦.✩○☆°:.★*•○°★**
+**☆ . * ● ¸ . ✦ .★　° :. ★ * • ○ ° ★**
  
 **🦋‌𝆺𝅥𓆩〭〬𝐂𖽪֟፝‌𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ‌𝆺𝅥😻⤍🖤**
 
@@ -233,7 +233,9 @@ async def greet_new_member(_, member: ChatMemberUpdated):
 
 **🍷 𝐌𖽞𖽧𖽜𖽞𖽷𖾗 😻** {count}
 
-**☆.*●¸.✦.✩○☆°:.★*•○°★**
+**➽───────────────────❥**   
+
+**☆ . * ● ¸ . ✦ .★　° :. ★ * • ○ ° ★**
 """,
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton(button_text, url=deep_link)],
