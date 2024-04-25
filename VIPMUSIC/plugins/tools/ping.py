@@ -70,15 +70,15 @@ async def ping_com(client, message: Message, _):
     captionss = "**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
-    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
+    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨...**")
     await asyncio.sleep(1)
-    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
+    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨.**")
     await asyncio.sleep(1)
-    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
+    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨..**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
+    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨...**")
     await asyncio.sleep(2)
-    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
+    await response.edit_caption("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑃𝑖𝑛𝑔 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨....**")
     await asyncio.sleep(2)
     await response.edit_caption("**𝐼𝑟𝑢 𝑅𝑎𝑠𝑎 𝐴𝑛𝑢𝑝𝑎𝑟𝑒𝑎𝑛 🤌🏻🫀**")
     await asyncio.sleep(3)
@@ -89,7 +89,7 @@ async def ping_com(client, message: Message, _):
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
     carbon = await make_carbon(text)
-    captions = "** 𝐼𝑡ℎ𝑜𝑜𝑜 𝑉𝑎𝑛𝑡ℎ𝑢𝑡𝑒𝑎𝑛.....!\n 𝐼𝑡ℎ𝑜𝑜𝑜 𝑉𝑎𝑛𝑡ℎ𝑢𝑡𝑒𝑎𝑛.....!**"
+    captions = "** 𝐼𝑡ℎ𝑜𝑜𝑜 𝑉𝑎𝑛𝑡ℎ𝑢𝑡𝑒𝑎𝑛.....\n 𝐼𝑡ℎ𝑜𝑜𝑜 𝑉𝑎𝑛𝑡ℎ𝑢𝑡𝑒𝑎𝑛.....**"
     await message.reply_photo((carbon), caption=captions,
     reply_markup=InlineKeyboardMarkup(
             [
