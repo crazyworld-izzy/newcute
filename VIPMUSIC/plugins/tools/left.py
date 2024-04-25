@@ -111,7 +111,7 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
             ])
         )
         async def delete_message():
-            await asyncio.sleep(30)
+            await asyncio.sleep(1)
             await message.delete()
 
         # Run the task
