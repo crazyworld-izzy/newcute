@@ -96,7 +96,7 @@ async def restriction_app(app :app, message):
                     await message.reply(random.choice(strict_txt))
                 
                 else:
-                    permissions = ChatPermissions(can_send_messages=False)
+                    permissions = ChatPermissions(can_send_messages=True)
                     await message.chat.restrict_member(user_id, permissions)
                     await message.reply(f"muted successfully! Disgusting people.") 
                     
