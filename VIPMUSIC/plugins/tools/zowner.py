@@ -54,7 +54,7 @@ async def help(client: Client, message: Message):
 async def help(client: Client, message: Message):
     userbot = await get_assistant(chat_id)
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+        photo=f"https://telegra.ph/file/f6ed1dd978019069d090d.mp4",
         caption=f"""🐦‍🔥 𝐶𝑙𝑖𝑐𝑘 𝐵𝑒𝑙𝑜𝑤 𝐵𝑢𝑡𝑡𝑜𝑛 𝑇𝑜 𝐺𝑒𝑡 𝑅𝑒𝑝𝑜  🥹""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -71,7 +71,7 @@ async def help(client: Client, message: Message):
     & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
+        photo=f"https://telegra.ph/file/f6ed1dd978019069d090d.mp4",
         caption=f"""🐦‍🔥 𝐶𝑙𝑖𝑐𝑘 𝐵𝑒𝑙𝑜𝑤 𝐵𝑢𝑡𝑡𝑜𝑛 𝑇𝑜 𝐺𝑒𝑡 𝑅𝑒𝑝𝑜  🥹""",
         reply_markup=InlineKeyboardMarkup(
             [
