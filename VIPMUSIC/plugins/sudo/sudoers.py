@@ -47,7 +47,7 @@ async def userdel(client, message: Message, _):
 
 
 
-photo_url = "https://telegra.ph/file/f6ed1dd978019069d090d.mp4"
+photo_url = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
 
 @app.on_message(filters.command(["cgsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
 async def sudoers_list(client, message: Message):
