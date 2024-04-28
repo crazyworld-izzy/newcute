@@ -109,8 +109,8 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     welcome_font = ImageFont.truetype('VIPMUSIC/assets/font.ttf', size=45)
     
     # Draw user's name with shining red fill and dark saffron border
-    draw.text((1800, 900), f': {user}', fill=(255, 0, 0), font=font)
-    draw.text((1800, 900), f': {user}', fill=None, font=font, stroke_fill=(255, 153, 51), stroke_width=6)
+    draw.text((1800, 1000), f': {user}', fill=(255, 0, 0), font=font)
+    draw.text((1800, 1000), f': {user}', fill=None, font=font, stroke_fill=(255, 153, 51), stroke_width=6)
     
     # Draw user's id with shining blue fill and white border
     draw.text((1600, 1300), f': {id}', fill=(0, 0, 139))
@@ -121,7 +121,7 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     draw.text((2000, 1520), f': {uname}', fill=None, font=font, stroke_fill=(0, 128, 0), stroke_width=6)
     
     # Resize photo and position
-    pfp_position = (255, 340)
+    pfp_position = (255, 330)
     background.paste(pfp, pfp_position, pfp)
 
     # Calculate circular outline coordinates
