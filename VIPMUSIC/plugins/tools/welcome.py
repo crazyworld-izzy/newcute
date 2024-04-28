@@ -109,8 +109,8 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     welcome_font = ImageFont.truetype('VIPMUSIC/assets/font.ttf', size=45)
     
     # Draw user's name with shining red fill and dark saffron border
-    draw.text((1300, 700), f': {user}', fill=(255, 0, 0), font=font)
-    draw.text((1000, 700), f': {user}', fill=None, font=font, stroke_fill=(255, 153, 51), stroke_width=6)
+    draw.text((1600, 700), f': {user}', fill=(255, 0, 0), font=font)
+    draw.text((1600, 700), f': {user}', fill=None, font=font, stroke_fill=(255, 153, 51), stroke_width=6)
     
     # Draw user's id with shining blue fill and white border
     draw.text((1600, 1300), f': {id}', fill=(0, 0, 139))
