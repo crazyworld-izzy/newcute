@@ -121,7 +121,7 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     draw.text((2000, 1520), f': {uname}', fill=None, font=font, stroke_fill=(0, 128, 0), stroke_width=6)
     
     # Resize photo and position
-    pfp_position = (255, 322)
+    pfp_position = (255, 326)
     background.paste(pfp, pfp_position, pfp)
 
     # Calculate circular outline coordinates
