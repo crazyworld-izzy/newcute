@@ -19,7 +19,7 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = getenv("API_ID")
+API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 STRING1 = getenv("STRING_SESSION", None)
