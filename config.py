@@ -7,10 +7,10 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "28027658"))
-API_HASH = getenv("API_HASH", "044c3e4f8556a684c66b24db62f0fec8")
+API_ID = int(getenv("API_ID", "10284859"))
+API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7052307127:AAGwnQg_09x2R131bypZgB8Yiz1dgZZ6m5g")
+BOT_TOKEN = getenv("BOT_TOKEN", "6009759960:AAEKPNd6sssszLHc7SGNWIEZpwk7kiw9gIo")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
@@ -18,29 +18,29 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002045029099"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002045029099"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002066328009"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002066328009"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID","6550354041"))
+OWNER_ID = int(getenv("OWNER_ID","6900132473"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "newcute")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-fc1b7aea-b37a-4015-9877-8c3967ee97bc")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "https://t.me/TeamHyperNetworks",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VIP_CREATORS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TG_FRIENDSS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TeamHyperNetworks")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Team_Hypers_Networks")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -51,7 +51,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "2500"))
 AUTO_LEAVING_ASSISTANT = False
 
 #Auto Gcast/Broadcast Handler (True = broadcast on , False = broadcast off During Hosting, Dont Do anything here.)
-AUTO_GCAST = os.getenv("AUTO_GCAST","False")
+AUTO_GCAST = os.getenv("AUTO_GCAST","True")
 
 #Auto Broadcast Message That You Want Use In Auto Broadcast In All Groups.
 AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", None)
@@ -66,8 +66,8 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 2500))
 
 
 # Telegram audio and video file size limit (in bytes)
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 904857600))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 973741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 # Time after which bot will suggest random chats about bot commands.
@@ -83,7 +83,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", "BQE9p8oAUDvrW9Dnl1W8SP8zOfVR4WKWH2Lc3AGnDqH896n1vXZDqs56EZtxqba2qzIpz5lyrqkIpj8IsnK8HYf8Ys8O4oE5YDTnzjA43n2kF2halZ7CqjaOgwTZ-FKh8S0hqsUR5xfJShJNvZHEEqM_x1mDY1cMy_UEW4JRLT474rCzMGPxtpfKMbIPWAEWD-yuMD_KOl1_V5CcrUMGrCgAYT5ToGzcYV_-qUbTFZ89bgRwWXzG6P0LpmOaZy1oAoYR7a2xE4c8RqBmeygvEOuvRrDT1g9MQmLCCOWXwMbhXVlUk4LX7glp86G4e6RlVaqWi9tDbHa83Wy40EZn5qxYG_wsRgAAAAGGbnh5AA")
+STRING1 = getenv("STRING_SESSION", "BQE9p8oAHK2EhvZYJF_Nq8-Cj0PlqY6vs_REMoHtxEVP7Fuotd-JdlPs_4CQgxYEEQZ4hztyzbqKe6enTVtKuWAGqZyvwhrGKQrnzg4B6eCZT4XVQcJin1xIdAShEQsSCniPljZiFf0D5CyeRR2GkOymHNX5iK-6WBHhtA2zIemxlQrdvX1lKbZSGG8AlaIkRlalYOVtBpF76J74FpsRhwfRA7N8m5yzyK_12w8EJIL5QLbkgt-rhjBa9_CU-g8LG69hhrQ2iwenh4RZmn1-SLW6VtsMwh8wV-FYSq9x_lqYnMMaeJRte_fXoHHH6MY_GdvF8J7AUEeKihRJDlhDXHkWs8MqwQAAAAGEyHmmAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -113,21 +113,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
 
 
 def time_to_seconds(time):
