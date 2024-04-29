@@ -19,10 +19,10 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-STRING1 = getenv("STRING_SESSION", None)
+API_ID = int(getenv("API_ID", "10284859"))
+API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
+STRING1 = getenv("STRING_SESSION", "BQE9p8oAHK2EhvZYJF_Nq8-Cj0PlqY6vs_REMoHtxEVP7Fuotd-JdlPs_4CQgxYEEQZ4hztyzbqKe6enTVtKuWAGqZyvwhrGKQrnzg4B6eCZT4XVQcJin1xIdAShEQsSCniPljZiFf0D5CyeRR2GkOymHNX5iK-6WBHhtA2zIemxlQrdvX1lKbZSGG8AlaIkRlalYOVtBpF76J74FpsRhwfRA7N8m5yzyK_12w8EJIL5QLbkgt-rhjBa9_CU-g8LG69hhrQ2iwenh4RZmn1-SLW6VtsMwh8wV-FYSq9x_lqYnMMaeJRte_fXoHHH6MY_GdvF8J7AUEeKihRJDlhDXHkWs8MqwQAAAAGEyHmmAA")
 
 
 client = Client(STRING1, API_ID, API_HASH)
