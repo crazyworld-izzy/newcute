@@ -114,7 +114,7 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     
     # Draw user's id with shining blue fill and white border
     draw.text((1620, 1280), f': {id}', fill=(0, 0, 139))
-    draw.text((1620, 1280), f': {id}', fill=None, font=font, stroke_fill=(0, 225, 255), stroke_width=0)
+    draw.text((1620, 1280), f': {id}', fill=None, font=font, stroke_fill=(0, 225, 255), stroke_width=6)
     
     # Draw user's username with white fill and green border
     draw.text((2000, 1510), f': {uname}', fill=(255, 255, 255), font=font)
