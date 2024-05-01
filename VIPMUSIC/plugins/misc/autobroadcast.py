@@ -46,15 +46,7 @@ BUTTONS = InlineKeyboardMarkup(
        [
             InlineKeyboardButton("🍷 𝐊𖽹𖽴𖽡𖽖𖽳 𝐌𖽞 😻", url=f"https://t.me/Rose_milk_chat_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
        ]
-        
-       [   
-            InlineKeyboardButton("🍷 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 😻", url=f"https://t.me/Team_Hypers_Networks")
-       ]
-
-       [
-            InlineKeyboardButton("🍷 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 😻", url=f"https://t.me/TeamHyperNetworks")
-       ]
-    ]
+    ]    
 )
 
 MESSAGE = f"""**𝐶𝑢𝑡𝑒 𝐺𝑖𝑟𝑙𝑠 🖤✨ 
@@ -95,15 +87,7 @@ BUTTON = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton("🍷 𝐊𖽹𖽴𖽡𖽖𖽳 𝐌𖽞 😻", url=f"https://t.me/Rose_milk_chat_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
-        ]
-        
-        [   
-            InlineKeyboardButton("🍷 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 😻", url=f"https://t.me/Team_Hypers_Networks")
-        ]
-
-        [
-            InlineKeyboardButton("🍷 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 😻", url=f"https://t.me/TeamHyperNetworks")
-        ]
+        ]   
     ]
 )
 
