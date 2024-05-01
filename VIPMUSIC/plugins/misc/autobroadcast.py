@@ -6,11 +6,13 @@ from VIPMUSIC.utils.database import get_served_chats
 from config import START_IMG_URL, AUTO_GCAST_MSG, AUTO_GCAST, LOGGER_ID
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-AUTO_GCASTS = f"{AUTO_GCAST}" if AUTO_GCAST else False
+AUTO_GCASTS = f"{AUTO_GCAST}" if AUTO_GCAST else True
 
 START_IMG_URLS = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
 
-MESSAGES = f"""  **𝐶𝑢𝑡𝑒 𝐺𝑖𝑟𝑙𝑠 🖤✨ 𝐼𝑠 𝐴𝑑𝑣𝑎𝑛𝑐𝑒 𝑀𝑢𝑠𝑖𝑐 𝐵𝑜𝑡  😎🙂‍↔✨
+MESSAGES = f"""  **𝐶𝑢𝑡𝑒 𝐺𝑖𝑟𝑙𝑠 🖤✨ 
+
+𝐴𝑑𝑣𝑎𝑛𝑐𝑒 𝑀𝑢𝑠𝑖𝑐 𝐵𝑜𝑡  😎🙂‍↔✨
 
 𝑁𝑒𝑤 𝐹𝑒𝑎𝑡𝑢𝑟𝑒 📩✨
 
@@ -41,13 +43,23 @@ MESSAGES = f"""  **𝐶𝑢𝑡𝑒 𝐺𝑖𝑟𝑙𝑠 🖤✨ 𝐼𝑠 𝐴�
 
 BUTTONS = InlineKeyboardMarkup(
     [
-        [
-            InlineKeyboardButton("🦋‌𝆺𝅥𓆩〭〬𝐂𖽪֟፝‌𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ‌𝆺𝅥😻⤍🖤", url=f"https://t.me/Rose_milk_chat_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
-        ]
+       [
+            InlineKeyboardButton("🍷 𝐊𖽹𖽴𖽡𖽖𖽳 𝐌𖽞 😻", url=f"https://t.me/Rose_milk_chat_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+       ]
+        
+       [   
+            InlineKeyboardButton("🍷 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 😻", url=f"https://t.me/Team_Hypers_Networks")
+       ]
+
+       [
+            InlineKeyboardButton("🍷 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 😻", url=f"https://t.me/TeamHyperNetworks")
+       ]
     ]
 )
 
-MESSAGE = f"""**𝐶𝑢𝑡𝑒 𝐺𝑖𝑟𝑙𝑠 🖤✨ 𝐼𝑠 𝐴𝑑𝑣𝑎𝑛𝑐𝑒 𝑀𝑢𝑠𝑖𝑐 𝐵𝑜𝑡  😎🙂‍↔✨
+MESSAGE = f"""**𝐶𝑢𝑡𝑒 𝐺𝑖𝑟𝑙𝑠 🖤✨ 
+
+𝐴𝑑𝑣𝑎𝑛𝑐𝑒 𝑀𝑢𝑠𝑖𝑐 𝐵𝑜𝑡  😎🙂‍↔✨
 
 𝑁𝑒𝑤 𝐹𝑒𝑎𝑡𝑢𝑟𝑒 📩✨
 
@@ -83,6 +95,14 @@ BUTTON = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton("🍷 𝐊𖽹𖽴𖽡𖽖𖽳 𝐌𖽞 😻", url=f"https://t.me/Rose_milk_chat_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+        ]
+        
+        [   
+            InlineKeyboardButton("🍷 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 😻", url=f"https://t.me/Team_Hypers_Networks")
+        ]
+
+        [
+            InlineKeyboardButton("🍷 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 😻", url=f"https://t.me/TeamHyperNetworks")
         ]
     ]
 )
