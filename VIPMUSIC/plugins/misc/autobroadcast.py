@@ -131,4 +131,4 @@ async def continuous_broadcast():
 
 # Start the continuous broadcast loop if AUTO_GCAST is True
 if AUTO_GCAST:  
-    asyncio.create_task(continuous_broadcast())
+    asyncio.create_task(continuous_broadcast()
