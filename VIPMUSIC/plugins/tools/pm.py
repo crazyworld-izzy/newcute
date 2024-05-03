@@ -4,7 +4,7 @@ import random
 from VIPMUSIC import app
 
 
-@app.on_message(filters.command(["pm","dm","inbox","private"], prefixes=["/","g","G"]))
+@app.on_message(filters.command(["pm","dm","inbox","private"], prefixes=["pm","dm","inbox","private]))
 def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_sticker = random.choice([True, False])
@@ -15,7 +15,8 @@ def goodnight_command_handler(_, message):
     else:
         emoji = get_random_emoji()
         app.send_message(message.chat.id, emoji)
-        message.reply_text(f"**Goodnight, {sender}! Sleep tight. {emoji}**")
+        message.reply_text(f"**odi poda baddu paiya, {sender}nna eanda pm kupdara 🤬🤬**")
+    else: {emoji}**")
 
 
 def get_random_sticker():
