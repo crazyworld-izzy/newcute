@@ -4,35 +4,37 @@ import random
 from VIPMUSIC import app
 
 
-@app.on_message(filters.command(["gn","n","oodnight","ood Night","ood night"], prefixes=["/","g","G"]))
+@app.on_message(filters.command(["punda","baadu","kuthi","gotha","gomala","kudhi","thevidiya","poolu","fuck","","ombu","nakku","item","gajii","ooka","mbu","adangomal","naai punda","mara punda","oombi","othaaaa"], prefixes=["punda","baadu","kuthi","gotha","gomala","kudhi","thevidiya","poolu","fuck","","ombu","nakku","item","gajii","ooka","mbu","adangomal","naai punda","mara punda","oombi","othaaaa]))
 def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_sticker = random.choice([True, False])
     if send_sticker:
         sticker_id = get_random_sticker()
         app.send_sticker(message.chat.id, sticker_id)
-        message.reply_text(f"**Goodnight, {sender}! Sleep tight. 🌙**")
+        message.reply_text(f"**𝐍ᴀ 𝐈ʀᴜᴋᴀ 𝐏ᴀᴋᴋᴀᴍᴇᴀ 𝐄ᴀ 𝐈ᴘᴀᴅɪ 𝐕ᴀʀᴛʜᴀ 𝐏ᴇʀsᴀ 🥺🥺 {sender}𝐁ʙʏ 𝐈ᴘᴀᴅɪ 𝐋ᴀ 𝐏ᴇᴀsᴀᴛʜᴀ 𝐊ᴀsᴛʜᴀᴍ 𝐈ʀᴜᴋᴜ 🥺👩‍🦯👩‍🦯🚶‍♀**")
     else:
         emoji = get_random_emoji()
         app.send_message(message.chat.id, emoji)
-        message.reply_text(f"**Goodnight, {sender}! Sleep tight. {emoji}**")
+        message.reply_text(f"**𝐍ᴀ 𝐈ʀᴜᴋᴀ 𝐏ᴀᴋᴋᴀᴍᴇᴀ 𝐄ᴀ 𝐈ᴘᴀᴅɪ 𝐕ᴀʀᴛʜᴀ 𝐏ᴇʀsᴀ 🥺🥺 {sender}𝐁ʙʏ 𝐈ᴘᴀᴅɪ 𝐋ᴀ 𝐏ᴇᴀsᴀᴛʜᴀ 𝐊ᴀsᴛʜᴀᴍ 𝐈ʀᴜᴋᴜ 🥺👩‍🦯👩‍🦯🚶‍♀**")
 
 
 def get_random_sticker():
     stickers = [
-        "CAACAgQAAx0Ce9_hCAACaEVlwn7HeZhgwyVfKHc3WUGC_447IAACLgwAAkQwKVPtub8VAR018x4E", # Sticker 1
-        "CAACAgIAAx0Ce9_hCAACaEplwn7dvj7G0-a1v3wlbN281RMX2QACUgwAAligOUoi7DhLVTsNsh4E", # Sticker 2
-        "CAACAgIAAx0Ce9_hCAACaFBlwn8AAZNB9mOUvz5oAyM7CT-5pjAAAtEKAALa7NhLvbTGyDLbe1IeBA", # Sticker 3
-        "CAACAgUAAx0CcmOuMwACldVlwn9ZHHF2-S-CuMSYabwwtVGC3AACOAkAAoqR2VYDjyK6OOr_Px4E",
-        "CAACAgIAAx0Ce9_hCAACaFVlwn-fG58GKoEmmZpVovxEj4PodAACfwwAAqozQUrt2xSTf5Ac4h4E",
+        "CAACAgIAAxkBAALZv2Y1N3SQv-XLAAEWoEPuRHKhcBS8ogACzUMAAkIx6UjssitCRhpjxjQE", # Sticker 1
+        "CAACAgIAAxkBAALZwGY1N3R92y-_7iflIJnbC1LFA5xiAAKZOwAC8rboSJO_j_VUOTKeNAQ", # Sticker 2
+        "CAACAgUAAxkBAALZwmY1N3TljXSxgoatcCuwLl0nywjuAAJMBQACRp7ZVlBMX_5LR7zONAQ", # Sticker 3
+        "CAACAgIAAxkBAALZwWY1N3QZJMZMW3X3DWAKr9dfE6vlAAJ4QgACuIXpSG7QUOzunghRNAQ", # Sticker 4
+        "CAACAgEAAxkBAALZw2Y1N3RWHVYxc9cOqId4-LQS1rNXAALWBAACUSkNOcGyHWEutXHhNAQ", # Sticker 5
+        "CAACAgUAAxkBAALZxGY1N3RwjFiNZwfs_zqVJoHNI97OAALUCgACSseYVR60yHu3hH3nNAQ", # Sticker 6
+        "CAACAgUAAxkBAALZxWY1N3QEMM3PB6z71PZp67yyPQecAAL5CAACPJKZVed8chNvQaiGNAQ", # Sticker 7
     ]
     return random.choice(stickers)
 
 
 def get_random_emoji():
     emojis = [
-        "😴",
-        "😪",
-        "💤",
+        "🥺",
+        "👩‍🦯",
+        "🚶‍♀",
     ]
     return random.choice(emojis)
