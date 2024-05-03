@@ -1,12 +1,12 @@
 import asyncio
 import datetime
 from pyrogram import Client
-from DAXXMUSIC.utils.database import get_assistant
+from VIPMUSIC.utils.database import get_assistant
 import config
-from DAXXMUSIC import app
+from VIPMUSIC import app
 
 AUTO_GCAST = True
-BOT_USERNAME = "tg_vc_bot"
+BOT_USERNAME = "Rose_milk_chat_bot"
 ADD_INTERVAL = 1  # Add every hour (in seconds)
 
 async def add_bot_to_chats():
