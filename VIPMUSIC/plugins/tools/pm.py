@@ -28,12 +28,3 @@ def get_random_sticker():
         "CAACAgIAAx0CerTvRQACFMZmNQ-LfqqGQRXrcIVN3R4rOjMi3QAC_R8AAp5mwUuLKHqA38PyoB4E", # Sticker 5
     ]
     return random.choice(stickers)
-
-
-def get_random_emoji():
-    emojis = [
-        "😡",
-        "😤",
-        "🤬",
-    ]
-    return random.choice(emojis)
