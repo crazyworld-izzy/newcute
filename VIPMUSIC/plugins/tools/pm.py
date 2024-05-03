@@ -4,7 +4,7 @@ import random
 from VIPMUSIC import app
 
 
-@app.on_message(filters.command(["pm","dm","inbox","private"], prefixes=["pm","dm","inbox","private]))
+@app.on_message(filters.command(["pm","dm","inbox","private"], prefixes=["pm","dm","inbox","private"]))
 def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_sticker = random.choice([True, False])
