@@ -4,27 +4,32 @@ import random
 from VIPMUSIC import app
 
 
-@app.on_message(filters.command(["gn","n","oodnight","ood Night","ood night"], prefixes=["/","g","G"]))
+@app.on_message(filters.command(["good","night","goodnight","ght","dream","gn","ni8","sleep","well"], prefixes=["good","night","goodnight","ght","dream","gn","ni8","sleep","well"]))
 def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_sticker = random.choice([True, False])
     if send_sticker:
         sticker_id = get_random_sticker()
         app.send_sticker(message.chat.id, sticker_id)
-        message.reply_text(f"**Goodnight, {sender}! Sleep tight. 🌙**")
+        message.reply_text(f"**𝐂ʜʟᴍ 𝐕.ᴄᴀʟʟ 𝐏ᴇᴀsᴀʟᴀᴍ 𝐏ᴀʀᴛʜᴀ 𝐀ᴛʜᴜᴋᴜʟʟᴀ 𝐓ʜᴜɴɢᴀ 𝐏ᴏʀɪʏᴇᴀ 🥺😢👩‍🦯 {sender}𝐂ʜᴇʀʀɪ 𝐁ʙʏ 𝐍ᴀᴍᴍᴀ 𝐃ʀᴇᴀᴍ 𝐋ᴀ 𝐑ᴏᴍᴀɴᴄᴇ 𝐏ᴀɴɴᴀʟʟᴀᴍ 🙈😏❤️**")
     else:
         emoji = get_random_emoji()
         app.send_message(message.chat.id, emoji)
-        message.reply_text(f"**Goodnight, {sender}! Sleep tight. {emoji}**")
+        message.reply_text(f"**𝐂ʜʟᴍ 𝐕.ᴄᴀʟʟ 𝐏ᴇᴀsᴀʟᴀᴍ 𝐏ᴀʀᴛʜᴀ 𝐀ᴛʜᴜᴋᴜʟʟᴀ 𝐓ʜᴜɴɢᴀ 𝐏ᴏʀɪʏᴇᴀ 🥺😢👩‍🦯 {sender}𝐂ʜᴇʀʀɪ 𝐁ʙʏ 𝐍ᴀᴍᴍᴀ 𝐃ʀᴇᴀᴍ 𝐋ᴀ 𝐑ᴏᴍᴀɴᴄᴇ 𝐏ᴀɴɴᴀʟʟᴀᴍ 🙈😏❤️{emoji}**")
 
 
 def get_random_sticker():
     stickers = [
-        "CAACAgQAAx0Ce9_hCAACaEVlwn7HeZhgwyVfKHc3WUGC_447IAACLgwAAkQwKVPtub8VAR018x4E", # Sticker 1
-        "CAACAgIAAx0Ce9_hCAACaEplwn7dvj7G0-a1v3wlbN281RMX2QACUgwAAligOUoi7DhLVTsNsh4E", # Sticker 2
-        "CAACAgIAAx0Ce9_hCAACaFBlwn8AAZNB9mOUvz5oAyM7CT-5pjAAAtEKAALa7NhLvbTGyDLbe1IeBA", # Sticker 3
-        "CAACAgUAAx0CcmOuMwACldVlwn9ZHHF2-S-CuMSYabwwtVGC3AACOAkAAoqR2VYDjyK6OOr_Px4E",
-        "CAACAgIAAx0Ce9_hCAACaFVlwn-fG58GKoEmmZpVovxEj4PodAACfwwAAqozQUrt2xSTf5Ac4h4E",
+        "CAACAgQAAxkBAALZeGY1ILUPxohB0luoydqksVTuoX4zAAIHEAACLNsJUL3QO8ZF22ANNAQ", # Sticker 1
+        "CAACAgEAAxkBAALZeWY1ISKokwYWad4wKQABfS_9_jx0cwACXgQAAjO2mUdGJHmjJt0XijQE", # Sticker 2
+        "CAACAgUAAxkBAALZemY1IWcGaVbdSngItwwX45xTT9QIAAIHCQACq6yJV0lq6JFdFk7rNAQ", # Sticker 3
+        "CAACAgUAAxkBAALZe2Y1IXOtVPGl4fazaqYAARMduBhFzwACIQoAAp3ykFeX0LLsBqaZ8zQE", # Sticker 4
+        "CAACAgUAAxkBAALZfGY1Ic97NbnmKZpoSfzBfTXN_p84AALuBQAC5tOxVCQr3PRKSJ9vNAQ", # Sticker 5
+        "CAACAgUAAxkBAALZfWY1IeUXeA9R8CR8l8L21f8XGW4lAAJABwACkLqwVODj_VQsKv8CNAQ", # Sticker 6
+        "CAACAgQAAxkBAALZfmY1IgdQZG1hUEnvgqra-eRHVvTTAAJPDgACVBOpUJTgjnyWTMB-NAQ", # Sticker 7
+        "CAACAgUAAxkBAALZkGY1JTTDtrQkb-RHipGbThlTLB4tAALPCAACfqvBVy9tJEb8PKOZNAQ", # Sticker 8
+        "CAACAgUAAxkBAALZkWY1JTjpG3dCi9Vcoyq92vrpj2gQAALYBwAC1X3AV_SIwOW7YwO7NAQ", # Sticker 9
+        "CAACAgUAAxkBAALZkmY1JUIVQ0wbdKfjRpfrIoNMK3iVAAK6BwACMenIVydDlnhGaHYtNAQ", # Sticker 10
     ]
     return random.choice(stickers)
 
