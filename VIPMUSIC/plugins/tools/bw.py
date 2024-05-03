@@ -4,7 +4,7 @@ import random
 from VIPMUSIC import app
 
 
-@app.on_message(filters.command(["punda","baadu","kuthi","gotha","gomala","kudhi","thevidiya","poolu","fuck","","ombu","nakku","item","gajii","ooka","mbu","adangomal","naai punda","mara punda","oombi","othaaaa"], prefixes=["punda","baadu","kuthi","gotha","gomala","kudhi","thevidiya","poolu","fuck","","ombu","nakku","item","gajii","ooka","mbu","adangomal","naai punda","mara punda","oombi","othaaaa]))
+@app.on_message(filters.command(["punda","baadu","kuthi","gotha","gomala","kudhi","thevidiya","poolu","fuck","ombu","nakku","item","gajii","ooka","mbu","adangomal","naai punda","mara punda","oombi","othaaaa"], prefixes=["punda","baadu","kuthi","gotha","gomala","kudhi","thevidiya","poolu","fuck","ombu","nakku","item","gajii","ooka","mbu","adangomal","naai punda","mara punda","oombi","othaaaa]))
 def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_sticker = random.choice([True, False])
