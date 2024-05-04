@@ -1,5 +1,7 @@
-from ... import *
-from ...modules.mongo.raidzone import *
+from ... import 
+from VIPMUSIC import app
+from ...modules.mongo.raidzone import 
+
 
 
 @app.on_message(cdx(["lr", "lraid", "loveraid"]))
