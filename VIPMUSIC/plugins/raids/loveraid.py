@@ -1,5 +1,5 @@
-from ... import 
-from VIPMUSIC import app
+from ... import *
+from VIPMUSIC import app 
 from ...modules.mongo.raidzone import 
 
 
