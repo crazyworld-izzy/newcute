@@ -6,7 +6,7 @@ import wget
 import time
 import yt_dlp
 from urllib.parse import urlparse
-from AarohiX import app
+from VIPMUSIC import app
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
