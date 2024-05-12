@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pymongo import MongoClient
-from ANNIEMUSIC import app
+from VUPMUSIC import app
 from config import MONGO_DB_URI
 import json
 from json import loads
@@ -16,7 +16,7 @@ user_data = {}
 
 today = {}
 
-pic = "https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg"
+pic = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
 
 
 # ------------------- watcher ----------------------- #
