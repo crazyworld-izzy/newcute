@@ -27,7 +27,7 @@ async def download_instareels(c: app, m: Message):
     except IndexError:
         await m.reply_text("Give me an link to download it...")
         return
-    if not reel_.startswith("https://www.instagram.com/reel/"):
+    if not reel_.startswith("https://www.instagram.com"):
         await m.reply_text("In order to obtain the requested reel, a valid link is necessary. Kindly provide me with the required link.")
         return
     OwO = reel_.split(".",1)
