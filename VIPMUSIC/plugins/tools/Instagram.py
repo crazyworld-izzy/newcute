@@ -1,7 +1,7 @@
 from pyrogram import Client
 from pyrogram import filters
 import requests
-from YukkiMusic import app
+from VIPMUSIC import app
 
 
 @app.on_message(filters.command(["ig", "instagram", "reel"]))
