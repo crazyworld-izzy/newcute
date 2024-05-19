@@ -39,7 +39,7 @@ async def ctest(_, message):
     try:
      #  is_selected = await get_couple(cid, today)
      #  if not is_selected:
-         msg = await message.reply_text("🦋")
+         msg = await message.reply_sticker("CAACAgUAAxkBAAL-0mZJuwJ-P_4dk8ItUfr_9rRr__3TAAItCgACbSIxVU73XyUpZXrhHgQ")
          #GET LIST OF USERS
          list_of_users = []
 
