@@ -53,3 +53,5 @@ openai==0.28.0
 mpv
 moviepy
 urllib3
+python-telegram-bot
+python==3.12
