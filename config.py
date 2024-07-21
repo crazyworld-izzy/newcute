@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "10284859"))
 API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6009759960:AAGhENsGjf6LmPGdJehsx9cn3YT-XbX-S9A")
+BOT_TOKEN = getenv("BOT_TOKEN", "6884694643:AAFGeMwalV12LRWRM03u-v5y-0OM1gtPxjk")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
@@ -83,7 +83,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", "BQC6kfsAFjA1IIEVSI9QC1S8z4yJsd_jc-eH9fZrhXYeLdTKh3A0o6lnRmdu1q4PyUzi8pQ-DGQXZM3EfUXW_W53gutzSR5AhfUgV1J2Ei1a1N4TLV0VEj1NL65Kfn8WIutmGJZjnLczkLUP5NoCLgo7DrJ_0YdrSUOCvDWCiOuCGwoc_9Oczw1q77kyUQEQ8NncyZjeZKFsTzc91nzL4EtFyGpFy3JV0QNzWYJkK6erfaHhhTx5Tb2QL0x2DcUKhy_dxNtxN3oKPgVcdG9RVfC5LiPkiI56Q7xAqu0vURyB2-Io4q-kTZpgvSYhpJDFtaF4ngqY1siwOM4rWTybtWRDW-15kwAAAAGSP2H6AA")
+STRING1 = getenv("STRING_SESSION", "BQF1_JUAELXwv5rcRW2x9pebVetuL8ycViWOhyFTSHGIF39hacYEv5pvbjLdNGto0PCjyy-a22qvjNcJAyY9s0-J5P5IOHLzyRf019pEofqBod2UADw0xW_HSGaSSdhlmHI98ArvQNGdU-lBAXrMP6-GGo9sWlrYL9qAgLWCmbbyg9iqBKPXz5PREEvSwiaYeDQETJAmFv4sHTq-xzT9s2SnI8DILQyPpmlMdWBZXSPde6IR_QdjuSprSnRy1ObJMMFioSJ4me3A4TgByeqO5lTvrElDkWOn_Ha-ys1DEJ4Hi0cEdErhtsjRU6tK0b9FnHbS5Wi3rTbQQJXPfbtCUglgh2TKwQAAAAFm6jMAAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
