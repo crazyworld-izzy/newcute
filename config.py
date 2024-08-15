@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "10284859"))
 API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7406231021:AAGt7Mz-A6pa0jykf1dpmIW_j43ha0XkesA")
+BOT_TOKEN = getenv("BOT_TOKEN", "7406231021:AAELE2lkm2Eav8EZaLdXXeClUqNsvmYr4dw")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
@@ -22,7 +22,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1002066328009"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002066328009"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID","6900132473"))
+OWNER_ID = int(getenv("OWNER_ID","5598323486"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-fc1b7aea-b37a-4015-9877-8c3967ee
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "https://github.com/crazyworld-izzy/newcute",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TeamHyperNetworks")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Team_Hypers_Networks")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/psycho_diaryy")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/psycho_diaryy")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
