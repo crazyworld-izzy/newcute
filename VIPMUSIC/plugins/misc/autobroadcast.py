@@ -10,8 +10,7 @@ AUTO_GCASTS = f"{AUTO_GCAST}" if AUTO_GCAST else True
 
 START_IMG_URLS = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
 
-MESSAGES = f"""  **╭──────⌁᳀⌁╾─────╮\n ‎ ‎ ‎ ‎ [𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ](https://t.me/Team_Hypers_Networks)\n╰─────╼⌁᳀⌁╾─────╯
-
+MESSAGES = f"""
 𝐈ᴛ'ꜱ 𝐓ʜᴇ 𝐌ᴏꜱᴛ 𝐓ʜᴇᴍᴇ-ᴀʙʟᴇ 𝐎ꜰ 𝐀ʟʟ 𝐒ᴩᴇᴄɪꜰɪᴄ 𝐁ᴏᴛꜱ 𝐓ʜᴇ 𝐍ᴇᴛᴡᴏʀᴋ 𝐈ꜱ 𝐁ᴀꜱᴇᴅ 𝐎ɴ 𝐃ᴇᴠᴇʟᴏᴩɪɴɢ 𝐁ᴏᴛꜱ 𝐀ɴᴅ 𝐆ɪᴠɪɴɢ 𝐓ʜᴇ 𝐒ᴄᴏᴩᴇ 𝐎ꜰ 𝐀ʟʟ 𝐅ᴇᴀᴛᴜʀᴇꜱ 𝐎ꜰ 𝐓ʜᴇ 𝐔ᴩᴄᴏᴍɪɴɢ 𝐁ᴏᴛꜱ.
 
 𝐅ʀᴏᴍ 𝐓ʜᴇ 𝐍ᴇᴛᴡᴏʀᴋ - 𝐖ᴇ 𝐀ʀᴇ 𝐏ʀᴇꜱᴇɴᴛɪɴɢ 𝐓ʜᴇ [ ᴄᴜᴛᴇ ɢɪʀʟ ](https://t.me/Rose_milk_chat_bot)
@@ -20,9 +19,8 @@ MESSAGES = f"""  **╭──────⌁᳀⌁╾─────╮\n ‎ ‎
 
 𝐖ʜɪᴄʜ 𝐇ᴀꜱ 𝐁ᴇᴇɴ 𝐔ᴩᴅᴀᴛᴇᴅ 𝐒ɪɴᴄᴇ 𝐀 𝐖ʜɪʟᴇ.
 
-𝐎ᴡɴᴇʀ - [𝐼𝑧𝑧𝑦𝑦𝑖𝑟](https://t.me/King_0f_izzy) ❤🖤✨ 
+𝐎ᴡɴᴇʀ - [𝛢ᴊ 𝑳𝛐𝛎𝛆ʟ𝛌](https://t.me/Li_xiaoyu_fan) ❤🖤✨ 
 
-𝐍ᴇᴛᴡᴏʀᴋ - [𝐻𝑦𝑝𝑒𝑟 𝑁𝑒𝑡𝑤𝑜𝑟𝑘](https://t.me/Team_Hypers_Networks) 😎✨**"""
 
 
 BUTTONS = InlineKeyboardMarkup(
@@ -33,8 +31,7 @@ BUTTONS = InlineKeyboardMarkup(
     ]    
 )
 
-MESSAGE = f"""**╭──────⌁᳀⌁╾─────╮\n ‎ ‎ ‎ ‎ [𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ](https://t.me/Team_Hypers_Networks)\n╰─────╼⌁᳀⌁╾─────╯
-
+MESSAGE = f"""
 𝐓ʜᴇ 𝐔ᴩᴅᴀᴛᴇᴅ 𝐅ᴇᴀᴛᴜʀᴇꜱ 𝐀ʀᴇ 𝐋ɪꜱᴛᴇᴅ 𝐁ᴇʟᴏᴡ.🦋
 
 [🦋‌𝆺𝅥𓆩〭〬𝐂𖽪֟፝‌𖾓𖾝ԍ𖽹𖾜֟፝𖾘‌𝆺𝅥😻⤍🖤]
@@ -79,9 +76,7 @@ MESSAGE = f"""**╭──────⌁᳀⌁╾─────╮\n ‎ ‎ �
 
 𝐈ɴғᴏ 𝐍ᴏᴛɪᴄ
 
-𝐎ᴡɴᴇʀ - [𝐼𝑧𝑧𝑦𝑦𝑖𝑟](https://t.me/King_0f_izzy) ❤🖤✨ 
-
-𝐍ᴇᴛᴡᴏʀᴋ - [𝐻𝑦𝑝𝑒𝑟 𝑁𝑒𝑡𝑤𝑜𝑟𝑘](https://t.me/Team_Hypers_Networks) 😎✨**"""
+𝐎ᴡɴᴇʀ - [𝛢ᴊ 𝑳𝛐𝛎𝛆ʟ𝛌](https://t.me/Li_xiaoyu_fan) ❤🖤✨  
 
 """🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
 
