@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "10284859"))
-API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
+API_ID = int(getenv("API_ID", "13399054"))
+API_HASH = getenv("API_HASH", "585801d590dac4c79aeaa7bcda495e62")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "7406231021:AAELE2lkm2Eav8EZaLdXXeClUqNsvmYr4dw")
 
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/psycho_diaryy")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/psycho_diaryy")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tamil_chat_unique_galaxy")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/izzy_tamil_junction")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -83,7 +83,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", "BQF1_JUAELXwv5rcRW2x9pebVetuL8ycViWOhyFTSHGIF39hacYEv5pvbjLdNGto0PCjyy-a22qvjNcJAyY9s0-J5P5IOHLzyRf019pEofqBod2UADw0xW_HSGaSSdhlmHI98ArvQNGdU-lBAXrMP6-GGo9sWlrYL9qAgLWCmbbyg9iqBKPXz5PREEvSwiaYeDQETJAmFv4sHTq-xzT9s2SnI8DILQyPpmlMdWBZXSPde6IR_QdjuSprSnRy1ObJMMFioSJ4me3A4TgByeqO5lTvrElDkWOn_Ha-ys1DEJ4Hi0cEdErhtsjRU6tK0b9FnHbS5Wi3rTbQQJXPfbtCUglgh2TKwQAAAAFm6jMAAA")
+STRING1 = getenv("STRING_SESSION", "BQFA8p8AcqB8w2ycSbwzqoDeW4yWSq5nL4YLK_N1SXeHavzvvcl1Eie8ZJc2_B9V2MlIjr2i8f-a-ZESTmgt2p3-NiZhLGhv-V2apZM7_8UbFHGWEllYVrTCYt3YtgtTXMg_39kOA0hYf_3nRHgBPnviWt4eYd61kq_VKrIGallHorQdVZvgH_CkeRH7uODHge-GcVs3LW7Y6wkqIPrU_dcobvLUlQmP2c9cVzoQ2aLiO1_vEaxZzbvO_6UG_0RQ1AI0L3c49aYoAdpsT8UbqngDty0JS6dZ8mVLj4Ap8258oxHlxADQ5p6pJ8-lffOS_2Sbi5YAdwrBDviKOAE00FPkIwuCcQAAAAG1FHf1AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
