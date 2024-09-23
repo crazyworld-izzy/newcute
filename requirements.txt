@@ -27,7 +27,7 @@ pytz
 future==0.18.3
 py-tgcalls==1.2.9
 pytgcalls==2.1.0
-tgcalls==2.0.0
+tgcalls==3.0.0.dev5
 ntgcalls==1.1.2
 pykeyboard
 pyshorteners
