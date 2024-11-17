@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "20185438"))
-API_HASH = getenv("API_HASH", "c8f3cb6db40e4eb6e7e43866660e54ac")
+API_ID = int(getenv("API_ID", "13399054"))
+API_HASH = getenv("API_HASH", "585801d590dac4c79aeaa7bcda495e62")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "8016992775:AAFo8yxC8GLWqrRYGoKlrr6NTBDzQn3FC-c")
+BOT_TOKEN = getenv("BOT_TOKEN", "7932576136:AAH_p85vw5A1cJfO7hz9GVGLfr2qnzOSW3k")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://marwin0985:BEwJvxaADStDLScc@cluster0.oh0nk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002354592685"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002354592685"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002066328009"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002066328009"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID","7712969541"))
+OWNER_ID = int(getenv("OWNER_ID","7078122796"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tamil_chat_unique_galaxy")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/moonz_lightx")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Team_Hypers_Networks")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Team_Hypers_Networks")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -83,7 +83,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", "BQFA8p8AcqB8w2ycSbwzqoDeW4yWSq5nL4YLK_N1SXeHavzvvcl1Eie8ZJc2_B9V2MlIjr2i8f-a-ZESTmgt2p3-NiZhLGhv-V2apZM7_8UbFHGWEllYVrTCYt3YtgtTXMg_39kOA0hYf_3nRHgBPnviWt4eYd61kq_VKrIGallHorQdVZvgH_CkeRH7uODHge-GcVs3LW7Y6wkqIPrU_dcobvLUlQmP2c9cVzoQ2aLiO1_vEaxZzbvO_6UG_0RQ1AI0L3c49aYoAdpsT8UbqngDty0JS6dZ8mVLj4Ap8258oxHlxADQ5p6pJ8-lffOS_2Sbi5YAdwrBDviKOAE00FPkIwuCcQAAAAG1FHf1AA")
+STRING1 = getenv("STRING_SESSION", "BQDMdA4As5YvPUlffS8IcfLWBP06_yx3EcV8AdCFWlIKxEa-oD7KFS3HGOXFoVBnKWFyYwFawMhSiB_TUVT0zdApoKzAaODQ4wDum8yVVS-8EOqF4kz5HvQDE9Bwz5dDaxwioXAxfmok49mU-m79l88bC85Aqm9g-63pUMaUGBT0gFj0yaQE4Dd5XnSj1dnk_XveZrQ1hLtx_1J5NTXI9sEXeL1YHjKZK9L8NNBZLNt8V9eHdd7wabfXIMyR6slorVCX06nHcWACxCoUwdN-clLEPXDZwu-QZDZ017r7EtFhQvNaS4jwjcxX6Ty76PHbU0o2fYWXlihxHH-2ESHJ-P01Ja1wlQAAAAG5Bf-FAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
