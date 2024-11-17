@@ -7,10 +7,10 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "13399054"))
-API_HASH = getenv("API_HASH", "585801d590dac4c79aeaa7bcda495e62")
+API_ID = int(getenv("API_ID", "20185438"))
+API_HASH = getenv("API_HASH", "c8f3cb6db40e4eb6e7e43866660e54ac")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7406231021:AAELE2lkm2Eav8EZaLdXXeClUqNsvmYr4dw")
+BOT_TOKEN = getenv("BOT_TOKEN", "8016992775:AAFo8yxC8GLWqrRYGoKlrr6NTBDzQn3FC-c")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
@@ -18,11 +18,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002066328009"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002066328009"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002354592685"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002354592685"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID","5598323486"))
+OWNER_ID = int(getenv("OWNER_ID","7712969541"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -40,7 +40,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tamil_chat_unique_galaxy")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/izzy_tamil_junction")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/moonz_lightx")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
