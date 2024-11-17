@@ -866,7 +866,12 @@ async def cleanmode_on(chat_id: int):
 
 # Audio Video Limit
 
-from pytgcalls.types import AudioQuality, VideoQuality
+from pytgcalls.types.input_stream.quality import (HighQualityAudio,
+                                                  HighQualityVideo,
+                                                  LowQualityAudio,
+                                                  LowQualityVideo,
+                                                  MediumQualityAudio,
+                                                  MediumQualityVideo)
 
 
 async def save_audio_bitrate(chat_id: int, bitrate: str):
@@ -897,33 +902,25 @@ async def get_vid_bit_name(chat_id: int) -> str:
 async def get_audio_bitrate(chat_id: int) -> str:
     mode = audio.get(chat_id)
     if not mode:
-        return AudioQuality.MEDIUM
-    if str(mode) == "STUDIO":
-        return AudioQuality.STUDIO
-    elif str(mode) == "HIGH":
-        return AudioQuality.HIGH
-    elif str(mode) == "MEDIUM":
-        return AudioQuality.MEDIUM
-    elif str(mode) == "LOW":
-        return AudioQuality.LOW
+        return MediumQualityAudio()
+    if str(mode) == "High":
+        return HighQualityAudio()
+    elif str(mode) == "Medium":
+        return MediumQualityAudio()
+    elif str(mode) == "Low":
+        return LowQualityAudio()
 
 
 async def get_video_bitrate(chat_id: int) -> str:
     mode = video.get(chat_id)
     if not mode:
         if PRIVATE_BOT_MODE == str(True):
-            return VideoQuality.SD_480p
+            return HighQualityVideo()
         else:
-            return VideoQuality.SD_480p
-    if str(mode) == "UHD_4K":
-        return VideoQuality.UHD_4K
-    elif str(mode) == "QHD_2K":
-        return VideoQuality.QHD_2K
-    elif str(mode) == "FHD_1080p":
-        return VideoQuality.FHD_1080p
-    elif str(mode) == "HD_720p":
-        return VideoQuality.HD_720p
-    elif str(mode) == "SD_480p":
-        return VideoQuality.SD_480p
-    elif str(mode) == "SD_360p":
-        return VideoQuality.SD_360p
+            return MediumQualityVideo()
+    if str(mode) == "High":
+        return HighQualityVideo()
+    elif str(mode) == "Medium":
+        return MediumQualityVideo()
+    elif str(mode) == "Low":
+        return LowQualityVideo()
