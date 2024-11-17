@@ -22,7 +22,7 @@ pytube
 pykeyboard
 unidecode
 pyromod
-py-tgcalls==2.0.2
+py-tgcalls==0.9.7
 ntgcalls==1.2.0
 python-dotenv
 pyyaml
